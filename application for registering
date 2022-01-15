@@ -1,0 +1,23 @@
+package com.training;
+
+import java.util.Scanner; public class Fourth {
+
+String username; int password; static boolean Verifying(String username,int password) { if(username.length()>=12 &&username.endsWith("_job")) { return true; } else { return false; }
+
+}
+
+
+
+  public static void main(String[] args) {
+
+Scanner scan=new Scanner(System.in);
+Fourth j1=new Fourth();
+
+System.out.println("Enter username and password");
+
+if(Verifying(j1.username=scan.next(),j1.password=scn.nextInt()))
+
+	System.out.println("yes");
+else
+	System.out.println("no");
+} }
